@@ -1,2 +1,9 @@
-@import "layout/flexboxgrid";
-@import "layout/normalize";
+@import "vendors/flexboxgrid";
+@import "vendors/normalize";
+
+@import "abstracts/variables";
+
+@import "base/base";
+
+@import "components/header";
+@import "components/button";

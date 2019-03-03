@@ -1,0 +1,44 @@
+.header {
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding: 30px 0;
+   
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        color: $color-primary;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    &__menu {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        &__item {
+            list-style-type: none;
+            margin-right: 30px;
+        }
+        &__link {
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            color: $color-black;
+        }
+    }
+    &__content {
+        text-align: center;
+        &__title {
+            margin-top: 100px;
+            font-size: 38px;
+        }
+        &__description {
+            font-size: 26px;
+            font-weight: normal;
+            margin-bottom: 40px;
+        }
+    }
+}
