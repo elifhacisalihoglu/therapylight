@@ -1,0 +1,9 @@
+.section {
+    text-align: center;
+    margin: 0;
+    padding: 30px 0;
+
+    &--cyan {
+        background-color: $color-primary-light;
+    }
+}
