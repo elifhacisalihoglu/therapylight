@@ -962,6 +962,9 @@ h2 {
   font-size: 45px;
   margin-bottom: 5px; }
 
+h3 {
+  font-size: 26px; }
+
 h5 {
   font-size: 16px;
   color: #696969;
@@ -970,8 +973,77 @@ h5 {
 p {
   font-size: 26px;
   font-weight: normal;
-  color: #1d2027;
+  color: #1d2027; }
+
+.u-flex {
+  display: flex; }
+
+.u-flex-extend {
+  flex: 1; }
+
+.u-flex-grow-full {
+  flex-grow: 1; }
+
+.u-flex-no-shrink {
+  flex-shrink: 0; }
+
+.u-flex-align-right {
+  justify-content: flex-end; }
+
+.u-flex-align-center {
+  justify-content: center; }
+
+.u-flex-align-justify {
+  justify-content: space-between; }
+
+.u-flex-align-spaced {
+  justify-content: space-between; }
+
+.u-flex-align-top {
+  align-items: flex-start; }
+
+.u-flex-align-middle {
+  align-items: center; }
+
+.u-flex-align-bottom {
+  align-items: flex-end; }
+
+.u-flex-align-stretch {
+  align-items: stretch; }
+
+.u-flex-align-self-top {
+  align-self: flex-start; }
+
+.u-flex-align-self-middle {
+  align-self: center; }
+
+.u-flex-align-self--bottom {
+  align-self: flex-end; }
+
+.u-flex-align-self-stretch {
+  align-self: stretch; }
+
+.u-flex-nowrap {
+  flex-wrap: nowrap; }
+
+.u-flex-dir-column {
+  flex-direction: column; }
+
+.u-flex-full-center {
+  align-items: center;
+  justify-content: center; }
+
+.u-text-left {
+  text-align: left; }
+
+.u-text-right {
+  text-align: right; }
+
+.u-text-center {
   text-align: center; }
+
+.u-text-justify {
+  text-align: justify; }
 
 .header {
   background-image: url(../img/hero.jpg);
@@ -1019,19 +1091,27 @@ p {
   padding: 15px 20px; }
 
 .section {
-  text-align: center;
   margin: 0;
-  padding: 1px 0; }
+  padding: 30px 0; }
   .section--cyan {
-    background-color: #f5fdff; }
+    background-color: #d9f1f8; }
   .section--white {
     background-color: #fff; }
+  .section--pink {
+    background-color: #fcdef8; }
 
 .box {
-  padding: 10px 10px;
   margin-top: 30px;
-  background-color: #f9f9f9;
   border-radius: 17px; }
+  .box--text-left {
+    text-align: left; }
+  .box--gray {
+    background-color: #f9f9f9;
+    padding: 10px 10px; }
+  .box--white {
+    background-color: #fff;
+    padding: 10px 30px;
+    box-shadow: 0 25px 34px 0 rgba(0, 0, 0, 0.1); }
   .box__text {
     font-size: 20px;
-    text-align: center; }
+    color: #1d2027; }
