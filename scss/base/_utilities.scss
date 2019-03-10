@@ -107,3 +107,44 @@
     text-align: justify;
   }
 }
+
+.u-full-width {
+  width: 100%;
+}
+
+//
+// Gapping
+//
+
+.u-clear-gap {
+  margin: 0;
+}
+
+.u-clear-gap-top {
+  margin-top: 0;
+}
+
+.u-clear-gap-bottom {
+  margin-bottom: 0;
+}
+
+.u-clear-gap-vertical {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-gap {
+  @include make-utility-gaps();
+}
+
+.u-pad {
+  @include make-utility-pads();
+}
+
+.u-block {
+  display: block;
+}
+
+.u-inline-block {
+  display: inline-block;
+}

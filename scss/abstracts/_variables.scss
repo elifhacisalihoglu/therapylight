@@ -9,3 +9,23 @@ $color-black: #000;
 $color-black-light: #1d2027;
 $color-white: #fff;
 $color-pink: #fcdef8;
+
+// gaps
+$g-base-gap: 2.1rem;
+$g-gaps: (
+  xsmall: (x: round($g-base-gap / 6), y: round($g-base-gap / 4)),
+  small: (x: round($g-base-gap / 4), y: round($g-base-gap / 2)),
+  normal: (x: round($g-base-gap / 2), y: $g-base-gap),
+  medium: (x: round($g-base-gap * 0.75), y: round($g-base-gap * 1.5)),
+  large: (x: $g-base-gap, y: round($g-base-gap * 2))
+);
+
+// pads
+$g-base-padding: 5rem;
+$g-pads: (
+  xsmall: ($g-base-padding / 4),
+  small: ($g-base-padding / 2),
+  normal: $g-base-padding,
+  medium: ($g-base-padding * 1.5),
+  large: ($g-base-padding * 2)
+);

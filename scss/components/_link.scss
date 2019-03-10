@@ -1,0 +1,8 @@
+.link {
+    text-decoration: none;
+
+    &--blue {
+        color: $color-primary;
+        font-size: 16px;
+    }
+}

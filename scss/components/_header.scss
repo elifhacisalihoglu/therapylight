@@ -8,11 +8,7 @@
         display: flex;
         justify-content: space-between;
     }
-    &__logo {
-        color: $color-primary;
-        text-decoration: none;
-        font-size: 18px;
-    }
+   
     &__menu {
         display: flex;
         align-items: center;
