@@ -1292,6 +1292,13 @@ p {
     background-color: #fff; }
   .section--pink {
     background-color: #fcdef8; }
+  .section__image--small {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px; }
+  .section__vertical {
+    width: 1200px;
+    border: solid 1px #c5d5de; }
 
 .box {
   margin-top: 30px;
@@ -1316,6 +1323,8 @@ p {
 
 .link {
   text-decoration: none; }
+  .link--upper {
+    text-transform: uppercase; }
   .link--blue {
     color: #00b3ef;
     font-size: 16px; }

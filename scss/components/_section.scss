@@ -13,4 +13,17 @@
     &--pink {
         background-color: $color-pink;
     }
+
+    &__image {
+        &--small {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    &__vertical {
+        width: 1200px;
+        border: solid 1px $color-vertical;
+    }
 }
