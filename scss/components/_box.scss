@@ -21,6 +21,11 @@ padding: 0 0;
     box-shadow: 0 25px 34px 0 rgba($color-black, 0.1);
   }
 
+  &--rectangle {
+    padding: 20px;
+    box-shadow: 0 3px 34px 0 rgba($color-black, 0.1);
+  }
+
   &--image {
     padding: 0 0;
     background-color: $color-white;
@@ -31,5 +36,10 @@ padding: 0 0;
   &__text {
     font-size: 20px;
     color: $color-black-light;
+  }
+
+  &__logo {
+    width: 100px;
+    height: 100px;
   }
 }

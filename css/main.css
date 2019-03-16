@@ -1323,6 +1323,9 @@ p {
     background-color: #fff;
     padding: 10px 30px;
     box-shadow: 0 25px 34px 0 rgba(0, 0, 0, 0.1); }
+  .box--rectangle {
+    padding: 20px;
+    box-shadow: 0 3px 34px 0 rgba(0, 0, 0, 0.1); }
   .box--image {
     padding: 0 0;
     background-color: #fff;
@@ -1330,6 +1333,9 @@ p {
   .box__text {
     font-size: 20px;
     color: #1d2027; }
+  .box__logo {
+    width: 100px;
+    height: 100px; }
 
 .link {
   text-decoration: none; }
