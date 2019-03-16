@@ -5,13 +5,11 @@
         border-radius: 50%;
         width: 7px;
         height: 7px;
-        margin: 0 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin: 0 5px;
 
         &:hover, &.is-active {
             background-color: $color-black-light;
+            cursor: pointer;
         }
     }
 }

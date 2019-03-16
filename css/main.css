@@ -1072,24 +1072,24 @@ p {
   margin-bottom: 1rem; }
 
 .u-gap-left-xsmall {
-  margin-left: 0rem; }
+  margin-left: 1rem; }
 
 .u-gap-right-xsmall {
-  margin-right: 0rem; }
+  margin-right: 1rem; }
 
 .u-gap-sides-xsmall {
-  margin-left: 0rem;
-  margin-right: 0rem; }
+  margin-left: 1rem;
+  margin-right: 1rem; }
 
 .u-gap-top-small {
-  margin-top: 1rem; }
+  margin-top: 2rem; }
 
 .u-gap-bottom-small {
-  margin-bottom: 1rem; }
+  margin-bottom: 2rem; }
 
 .u-gap-ends-small {
-  margin-top: 1rem;
-  margin-bottom: 1rem; }
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
 
 .u-gap-left-small {
   margin-left: 1rem; }
@@ -1102,34 +1102,34 @@ p {
   margin-right: 1rem; }
 
 .u-gap-top {
-  margin-top: 2.1rem; }
-
-.u-gap-bottom {
-  margin-bottom: 2.1rem; }
-
-.u-gap-ends {
-  margin-top: 2.1rem;
-  margin-bottom: 2.1rem; }
-
-.u-gap-left {
-  margin-left: 1rem; }
-
-.u-gap-right {
-  margin-right: 1rem; }
-
-.u-gap-sides {
-  margin-left: 1rem;
-  margin-right: 1rem; }
-
-.u-gap-top-medium {
   margin-top: 3rem; }
 
-.u-gap-bottom-medium {
+.u-gap-bottom {
   margin-bottom: 3rem; }
 
-.u-gap-ends-medium {
+.u-gap-ends {
   margin-top: 3rem;
   margin-bottom: 3rem; }
+
+.u-gap-left {
+  margin-left: 2rem; }
+
+.u-gap-right {
+  margin-right: 2rem; }
+
+.u-gap-sides {
+  margin-left: 2rem;
+  margin-right: 2rem; }
+
+.u-gap-top-medium {
+  margin-top: 5rem; }
+
+.u-gap-bottom-medium {
+  margin-bottom: 5rem; }
+
+.u-gap-ends-medium {
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
 
 .u-gap-left-medium {
   margin-left: 2rem; }
@@ -1142,24 +1142,24 @@ p {
   margin-right: 2rem; }
 
 .u-gap-top-large {
-  margin-top: 4rem; }
+  margin-top: 6rem; }
 
 .u-gap-bottom-large {
-  margin-bottom: 4rem; }
+  margin-bottom: 6rem; }
 
 .u-gap-ends-large {
-  margin-top: 4rem;
-  margin-bottom: 4rem; }
+  margin-top: 6rem;
+  margin-bottom: 6rem; }
 
 .u-gap-left-large {
-  margin-left: 2.1rem; }
+  margin-left: 3rem; }
 
 .u-gap-right-large {
-  margin-right: 2.1rem; }
+  margin-right: 3rem; }
 
 .u-gap-sides-large {
-  margin-left: 2.1rem;
-  margin-right: 2.1rem; }
+  margin-left: 3rem;
+  margin-right: 3rem; }
 
 .u-pad-ends-xsmall {
   padding-top: 1.25rem;
@@ -1288,8 +1288,10 @@ p {
     background-color: #fff;
     border-radius: 50%;
     box-shadow: 0 25px 34px 0 rgba(0, 0, 0, 0.1);
-    width: 50px;
-    height: 50px; }
+    width: 60px;
+    height: 60px; }
+    .button--circle i {
+      font-size: 25px; }
 
 .section {
   margin: 0;
@@ -1342,12 +1344,10 @@ p {
   border-radius: 50%;
   width: 7px;
   height: 7px;
-  margin: 0 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  margin: 0 5px; }
   .dot--small:hover, .dot--small.is-active {
-    background-color: #1d2027; }
+    background-color: #1d2027;
+    cursor: pointer; }
 
 @font-face {
   font-family: 'icomoon';

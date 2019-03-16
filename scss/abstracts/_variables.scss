@@ -13,7 +13,7 @@ $color-vertical: #c5d5de;
 $color-dot: #bababa;
 
 // gaps
-$g-base-gap: 2.1rem;
+$g-base-gap: 3rem;
 $g-gaps: (
   xsmall: (x: round($g-base-gap / 6), y: round($g-base-gap / 4)),
   small: (x: round($g-base-gap / 4), y: round($g-base-gap / 2)),
