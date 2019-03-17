@@ -1,18 +1,18 @@
 .box {
   margin-top: 30px;
   border-radius: 17px;
-padding: 0 0;
+  padding: 0 0;
 
 
   &--text-left {
     text-align: left;
-    
+
   }
 
   &--gray {
     background-color: $color-gray-light;
     padding: 10px 10px;
-   
+
   }
 
   &--white {
@@ -26,12 +26,18 @@ padding: 0 0;
     box-shadow: 0 3px 34px 0 rgba($color-black, 0.1);
   }
 
+  &--little {
+    border-radius: 4px;
+      background-color: $color-green-light;
+      padding: 2px 20px;
+  }
+  
   &--image {
     padding: 0 0;
     background-color: $color-white;
     box-shadow: 0 25px 34px 0 rgba($color-black, 0.1);
   }
-  
+
 
   &__text {
     font-size: 20px;

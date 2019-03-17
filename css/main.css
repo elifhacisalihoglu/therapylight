@@ -1307,7 +1307,7 @@ p {
     width: 100px;
     height: 100px; }
   .section__vertical {
-    width: 1200px;
+    width: 1350px;
     border: solid 1px #c5d5de; }
 
 .box {
@@ -1326,6 +1326,10 @@ p {
   .box--rectangle {
     padding: 20px;
     box-shadow: 0 3px 34px 0 rgba(0, 0, 0, 0.1); }
+  .box--little {
+    border-radius: 4px;
+    background-color: #c1f9d0;
+    padding: 2px 20px; }
   .box--image {
     padding: 0 0;
     background-color: #fff;
