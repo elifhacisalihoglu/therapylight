@@ -4,12 +4,13 @@ $color-blue: #e9faffea;
 $color-primary-dark: #13bdd3f3;
 $color-gray: #696969;
 $color-gray-light: #f9f9f9;
+$color-gray-dark: #979797;
 
 $color-black: #000;
 $color-black-light: #1d2027;
 $color-white: #fff;
 $color-pink: #fcdef8;
-$color-vertical: #c5d5de;
+$color-vertical: #c8ccdd;
 $color-dot: #bababa;
 $color-green-light: #c1f9d0;
 
@@ -24,7 +25,7 @@ $g-gaps: (
 );
 
 // pads
-$g-base-padding: 5rem;
+$g-base-padding: 3rem;
 $g-pads: (
   xsmall: ($g-base-padding / 4),
   small: ($g-base-padding / 2),
