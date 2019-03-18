@@ -1337,10 +1337,6 @@ p {
   .box__logo {
     width: 100px;
     height: 100px; }
-  .box__university {
-    background-color: #fff;
-    border-radius: 6px;
-    border: solid 1px #979797; }
 
 .link {
   text-decoration: none; }
@@ -1362,6 +1358,16 @@ p {
 
 .hr--border {
   border: solid 1px #c8ccdd; }
+
+.university {
+  background-color: #fff;
+  border-radius: 6px;
+  border: solid 1px #979797;
+  width: 300px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 @font-face {
   font-family: 'icomoon';
