@@ -974,8 +974,9 @@ p {
   font-size: 26px;
   font-weight: normal;
   color: #1d2027; }
-  p--text {
-    font-size: 20px; }
+
+.p--text {
+  font-size: 20px; }
 
 .u-flex {
   display: flex; }
@@ -1283,7 +1284,8 @@ p {
   font-size: 16px;
   font-weight: normal;
   text-transform: uppercase;
-  padding: 15px 20px; }
+  padding: 15px 20px;
+  border: none; }
   .button--circle {
     color: #00b3ef;
     text-decoration: none;
@@ -1305,6 +1307,12 @@ p {
   width: 300px;
   height: 300px; }
 
+.image--form {
+  width: 100%;
+  background-color: #fff;
+  padding: 18px;
+  margin-left: 50px; }
+
 .section {
   margin: 0;
   padding: 30px 0; }
@@ -1314,14 +1322,6 @@ p {
     background-color: #fff; }
   .section--pink {
     background-color: #fcdef8; }
-  .section__image--small {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px; }
-  .section__image--big {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px; }
 
 .box {
   margin-top: 30px;
@@ -1384,6 +1384,25 @@ p {
   display: flex;
   align-items: center;
   justify-content: center; }
+
+.form-group {
+  display: block; }
+
+.form-control {
+  width: 100%;
+  border-radius: 6px;
+  border: solid 1px #979797;
+  padding: 15px;
+  box-sizing: border-box; }
+  .form-control--textarea {
+    padding: 60px 15px; }
+
+.form-label {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #979797;
+  margin: 10px 0; }
 
 @font-face {
   font-family: 'icomoon';

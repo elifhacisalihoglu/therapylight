@@ -1,0 +1,11 @@
+.form-control {
+    width: 100%;
+    border-radius: 6px;
+    border: solid 1px $color-gray-dark;
+    padding: 15px;
+    box-sizing: border-box;
+
+    &--textarea {
+        padding: 60px 15px;
+    }
+}

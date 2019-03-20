@@ -11,4 +11,11 @@
         width: 300px;
         height: 300px;
     }
+
+    &--form {
+        width: 100%;
+        background-color: $color-white;
+        padding: 18px;
+        margin-left: 50px;
+    }
 }

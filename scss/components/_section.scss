@@ -13,19 +13,4 @@
     &--pink {
         background-color: $color-pink;
     }
-
-    &__image {
-        &--small {
-            border-radius: 50%;
-            width: 100px;
-            height: 100px;
-        }
-
-        &--big {
-            border-radius: 50%;
-            width: 300px;
-            height: 300px;  
-        }
-    }
-   
 }
