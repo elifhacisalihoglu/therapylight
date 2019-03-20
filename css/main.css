@@ -978,6 +978,16 @@ p {
 .p--text {
   font-size: 20px; }
 
+.p--footer {
+  opacity: 0.5;
+  font-size: 16px;
+  color: #000; }
+
+.p--copyright {
+  font-size: 14px;
+  opacity: 0.5;
+  margin: 0; }
+
 .u-flex {
   display: flex; }
 
@@ -1404,10 +1414,34 @@ p {
   color: #979797;
   margin: 10px 0; }
 
+.footer__list {
+  list-style-type: none;
+  margin: 0; }
+
+.footer__link {
+  font-size: 16px;
+  color: #000;
+  display: inline-block;
+  margin-bottom: 15px;
+  font-weight: 500;
+  text-decoration: none; }
+
+.footer__copyright {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px; }
+
+.footer__social {
+  color: #909299;
+  margin-right: 10px; }
+
+.line {
+  opacity: 0.5; }
+
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?m87qa6");
-  src: url("../fonts/icomoon/icomoon.eot?m87qa6#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?m87qa6") format("truetype"), url("../fonts/icomoon/icomoon.woff?m87qa6") format("woff"), url("../fonts/icomoon/icomoon.svg?m87qa6#icomoon") format("svg");
+  src: url("../fonts/icomoon/icomoon.eot?q9ucvd");
+  src: url("../fonts/icomoon/icomoon.eot?q9ucvd#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?q9ucvd") format("truetype"), url("../fonts/icomoon/icomoon.woff?q9ucvd") format("woff"), url("../fonts/icomoon/icomoon.svg?q9ucvd#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -1423,8 +1457,20 @@ p {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+.icon-arrow-down:before {
+  content: "\e901"; }
+
+.icon-facebook:before {
+  content: "\e900"; }
+
 .icon-arrow-right:before {
   content: "\ea3c"; }
 
 .icon-arrow-left:before {
   content: "\ea40"; }
+
+.icon-twitter:before {
+  content: "\ea96"; }
+
+.icon-linkedin:before {
+  content: "\eaca"; }
