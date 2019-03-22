@@ -1320,8 +1320,7 @@ p {
 .image--form {
   width: 100%;
   background-color: #fff;
-  padding: 18px;
-  margin-left: 50px; }
+  padding: 18px; }
 
 .section {
   margin: 0;
@@ -1344,7 +1343,7 @@ p {
     padding: 10px 10px; }
   .box--white {
     background-color: #fff;
-    padding: 10px 30px;
+    padding: 10px 20px;
     box-shadow: 0 25px 34px 0 rgba(0, 0, 0, 0.1); }
   .box--rectangle {
     padding: 20px;
@@ -1405,7 +1404,7 @@ p {
   padding: 15px;
   box-sizing: border-box; }
   .form-control--textarea {
-    padding: 60px 15px; }
+    min-height: 120px; }
 
 .form-label {
   display: block;
@@ -1431,11 +1430,12 @@ p {
   justify-content: space-between;
   margin-top: 40px; }
 
-.footer__social {
+.social__link {
   color: #909299;
   margin-right: 10px; }
 
 .line {
+  color: #000;
   opacity: 0.5; }
 
 @font-face {
