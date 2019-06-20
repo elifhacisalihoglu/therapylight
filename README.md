@@ -1,4 +1,4 @@
-# frontend-starter-kit
+# therapylight
 
 ## Requirements
 
